@@ -1,10 +1,14 @@
 import React from "react";
 import { StackNavigator } from "react-navigation";
-import MonsterFieldGuide from "./components/MonsterFieldGuide";
+import MonsterFieldGuide from "./src/MonsterFieldGuide";
+import MonsterDetails from "./src/MonsterDetails";
 
 const RootStack = StackNavigator({
   MonsterFieldGuide: {
     screen: MonsterFieldGuide
+  },
+  MonsterDetails: {
+    screen: MonsterDetails
   }
 });
 
