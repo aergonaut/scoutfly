@@ -1,5 +1,12 @@
 {
   "expo": {
+    "name": "Scoutfly",
+    "slug": "scoutfly",
+    "version": "0.1.0",
+    "description":
+      "Access the Monster Field Guide from Monster Hunter World on your mobile device",
+    "githubUrl": "https://github.com/aergonaut/scoutfly",
+    "icon": "assets/images/MHWorldIcons/Large/MHW-Unknown_Monster_Icon.png",
     "sdkVersion": "25.0.0"
   }
 }
