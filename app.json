@@ -6,7 +6,12 @@
     "description":
       "Access the Monster Field Guide from Monster Hunter World on your mobile device",
     "githubUrl": "https://github.com/aergonaut/scoutfly",
-    "icon": "assets/images/MHWorldIcons/Large/MHW-Unknown_Monster_Icon.png",
+    "icon": "appIcon.png",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "image": "appIcon.png",
+      "resizeMode": "contain"
+    },
     "sdkVersion": "25.0.0"
   }
 }

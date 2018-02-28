@@ -8,7 +8,8 @@
     }
   },
   "globals": {
-    "require": true
+    "require": true,
+    "Promise": true
   },
   "parser": "babel-eslint",
   "plugins": ["react"]
