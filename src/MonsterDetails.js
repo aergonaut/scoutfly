@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
     minHeight: "100%"
   },
   paragraph: {
-    marginBottom: 10
+    marginBottom: 10,
+    width: "100%"
   },
   species: {
     fontSize: 20
