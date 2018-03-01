@@ -7,7 +7,14 @@ const Monsters = {
       characteristics:
         "The pack leader of the Jagras. When hungry, Great Jagras are known to attack monsters even strong than themselves. It balloons to unbelievable proportions after swallowing prey.",
       usefulInformation:
-        "Even after a giant meal, a Great Jagras can use its expanded stomach to attack unsuspecting hunters. Aim for its belly to force it to vomit out its prey and significantly weaken it."
+        "Even after a giant meal, a Great Jagras can use its expanded stomach to attack unsuspecting hunters. Aim for its belly to force it to vomit out its prey and significantly weaken it.",
+      elements: [
+        ["Fire", 3],
+        ["Water", 0],
+        ["Thunder", 2],
+        ["Ice", 2],
+        ["Dragon", 1]
+      ]
     },
     {
       icon: require("../assets/images/MHWorldIcons/Large/MHW-Kulu-Ya-Ku_Icon.png"),

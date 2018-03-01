@@ -8,7 +8,7 @@ type Props = {
 
 export default class MonsterDetails extends React.Component<Props> {
   static navigationOptions = {
-    title: "Monster Details"
+    title: "Ecology"
   };
 
   render() {
@@ -18,7 +18,7 @@ export default class MonsterDetails extends React.Component<Props> {
       species,
       characteristics,
       usefulInformation
-    } = this.props.navigation.state.params;
+    } = this.props.screenProps;
 
     return (
       <ScrollView>
