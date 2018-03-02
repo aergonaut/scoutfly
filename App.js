@@ -3,7 +3,7 @@ import { StackNavigator, TabNavigator } from "react-navigation";
 import { AppLoading, Asset } from "expo";
 import MonsterFieldGuide from "./src/MonsterFieldGuide";
 import Ecology from "./src/Ecology";
-import Physiology from "./src/MonsterPhysiology";
+import Physiology from "./src/Physiology";
 import Monsters from "./src/monsters";
 
 class MonsterDetails extends React.Component {
